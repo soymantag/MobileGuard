@@ -1,9 +1,9 @@
 package com.chris.mobileguard.activities;
 
-import android.app.Activity;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.animation.AlphaAnimation;
 import android.view.animation.Animation;
 import android.view.animation.AnimationSet;
@@ -15,7 +15,7 @@ import android.widget.TextView;
 
 import com.chris.mobileguard.R;
 
-public class SplashActivity extends Activity {
+public class SplashActivity extends AppCompatActivity {
 
     private RelativeLayout mRl_root;
     private TextView mTv_versionName;
